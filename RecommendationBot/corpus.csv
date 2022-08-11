@@ -1,0 +1,41 @@
+intents
+Suggest me a nice cab
+I want to go to $destination
+Give me the details of cab with price range below $price
+I want to find a cab with $seatingcapacity seating capacity
+Give me details of cab from $pickup to $destination
+$seatingcapacity Seats
+$covidcare covidcare
+$price price
+From $pickup to $ destination
+Give me cabs with $covidcare covidcare under $price
+Suggest me cabs from $pickup to $destination with $covidcare covidcare
+I want details of cab with $covidcare covidcare with $seatingcapacity seats
+From $pickup to $destination under $price with $seatingcapacity seats and $covidcare available
+Find me cabs with $seatingcapacity and price about $price
+Suggest me cabs from $pickup to $destination with $seatingcapacity seats
+Give me cabs with $price rupees from $pickup to $destination
+Find me cabs near $pickup
+Find me cabs with coivdcare $covidcare
+I want to ride a cab to $destination
+cab from $pickup with $seatingcaapcity seats
+Suggest me a nice movie
+Watch a movie
+Find me a good movie
+Give a good movie of type $genre
+Find me a movie that completes in $duration
+Suggest me a movie with $rating rating
+I want to watch a movie in $language.
+$genre
+$duration hours
+$rating stars
+$language language
+Give me a movie with $genre and $duration hours
+I want to watch a movie with $rating rating and $genre type
+I want to watch a movie of type $genre from $language
+I want to watch a movie for $duration hours that has $rating rating
+I want to watch a movie that lasts for $duration hours in $language
+Find me $language movie with $rating stars
+Suggest me a movie that is of type $genre in $language that runs for $duration and has $rating star rating
+Give me a nice movie with $rating star rating for $duration in $language
+I want tos see a movie in $language with $rating rating of $genre

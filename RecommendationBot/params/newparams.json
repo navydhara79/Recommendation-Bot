@@ -1,0 +1,105 @@
+{
+   "CabType":{
+      "intentname":"CabType",
+      "parameters":[
+         {
+            "name":"Seating Capacity",
+            "placeholder":"$seatingcapacity",
+            "required":"True",
+            "prompts":[
+               "What's the seating capacity?"
+            ],
+            "context":"FlightBook_dialog_From"
+         },
+         {
+            "name":"Pickup Point",
+            "placeholder":"$pickup",
+            "required":"True",
+            "prompts":[
+               "What's the pick up point?"
+            ],
+            "context":"FlightBook_dialog_From"
+         },
+         {
+            "name":"Destination",
+            "placeholder":"$destination",
+            "required":"True",
+            "prompts":[
+               "What is the destination u want to reach?"
+            ],
+            "context":"FlightBook_dialog_To"
+         },
+         {
+            "name":"Price",
+            "placeholder":"$price",
+            "required":"True",
+            "prompts":[
+               "What is the price range u want?"
+            ],
+            "context":"FlightBook_dialog_To"
+         },
+         {
+            "name":"Distance",
+            "placeholder":"$distance",
+            "required":"True",
+            "prompts":[
+               "What is the distance of the travel?"
+            ],
+            "context":"FlightBook_dialog_To"
+         },
+         {
+            "name":"Covid Care",
+            "placeholder":"$covidcare",
+            "required":"True",
+            "prompts":[
+               "What is the destination u want to reach?"
+            ],
+            "context":"FlightBook_dialog_To"
+         }
+      ],
+      "actions":"CabType"
+   },
+   "Movie":{
+      "intentname":"MovieRecommend",
+      "parameters":[
+         {
+            "name":"Genre",
+            "placeholder":"$genre",
+            "required":"True",
+            "prompts":[
+               "which genre are you willing to watch?"
+            ],
+            "context":"FlightSearch_dialog_From"
+         },
+         {
+            "name":"Launguage",
+            "placeholder":"$language",
+            "required":"True",
+            "prompts":[
+               "Which language do you prefer?"
+            ],
+            "context":"FlightSearch_dialog_From"
+         },
+         {
+            "name":"Rating",
+            "placeholder":"$rating",
+            "required":"True",
+            "prompts":[
+               "What is the rating u want?",
+               "How much rating do you prefer?"
+            ],
+            "context":"FlightSearch_dialog_To"
+         },
+         {
+            "name":"Duration",
+            "placeholder":"$duration",
+            "required":"True",
+            "prompts":[
+               "How many hours can you spend?"
+            ],
+            "context":"FlightSearch_dialog_To"
+         }
+      ],
+      "actions":"MovieRecommend"
+   }
+}
